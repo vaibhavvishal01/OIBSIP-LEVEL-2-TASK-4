@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="conatiner">
+        <div class="card">
+            <h2 class="head1">Log in</h2>
+            <input type="email" placeholder="Email" id="email" required>
+            <input type="password" placeholder="Password" id="pass" required>
+            <button onclick="login()" id="sign">sign in</button>
+            <div id="log" class="first">
+                <div class="card2">
+                    <span class="close1" id="closeModal">&times;</span>
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQKzt4qEoIA38ylYOtIuqyVd8KY1aek6cMLwLodYEqzAwQlE8fwiPWU_WRYB55L3R_2_m4&usqp=CAU"
+                        class="image2" alt="image">
+                    <p class="para4">
+                        "Login Successful! Welcome you! 🎉"</p>
+
+                </div>
+            </div>
+            <div class="card1">
+                <h2 class="head2">Sign up</h2>
+                <input type="text" placeholder="Enter your Name" id="name">
+                <input type="email" placeholder="Enter your Email" id="mail">
+                <input type="password" placeholder="Enter your Password" id="word">
+                <button onclick="performSignup()" id="up">Sign up</button>
+                <div id="signupModal" class="modal">
+                    <div class="modal-content">
+                        <span class="close" id="closeModal">&times;</span>
+                        <img src="https://cdn-icons-png.flaticon.com/512/148/148767.png" class="image1" alt="image">
+                        <p class="para3">"Congratulations! Your signup was successful. Welcome to our community! 🎉🥳"
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="btn">
+                <button id="google">Google</button>
+                <button id="facebook">Facebook</button>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>

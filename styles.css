@@ -1,0 +1,190 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: sans-serif;
+}
+.conatiner{
+    background-color: grey;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.card{
+    background-color:rgba(255, 255, 255, 0.445);
+    width: 30%;
+    height: 90vh;
+    border-radius: 20px;
+    
+}
+.head1{
+    text-align: center;
+    color: #333;
+}
+.card input{
+    width: 50%;
+    height: 6vh;
+    margin-left: 20%;
+    margin: 10px 100px;
+    padding-left: 10px;
+    bottom: 20px;
+    font-size: 16px;
+    border-radius: 10px;
+
+}
+button{
+    position: absolute;
+    margin-left: -16%;
+    margin-top: 80px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    color: #fff;
+    background-color: green;
+}
+.card1{
+    width: 100%;
+    height: 6vh;
+    margin-left: 20%;
+    margin:  100px 100px;
+    padding-left: 10px;
+    bottom: 20px;
+    position: inherit;
+    margin: 100px;
+    margin-top:105px;
+    margin-left: -10px;
+    
+}
+.head2{
+    position: absolute;
+    margin-top: -30px;
+    margin-left: 12%;
+    color: white;
+}
+.btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 100px 50px;
+    margin-top: 250px;
+}
+#google{
+    position: absolute;
+    margin-left: 15%;
+    background-color: brown;
+    color: white;
+}
+#facebook{
+    background-color: rgb(82, 82, 240);
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.modal-content {
+    background-color: white;
+    width: 60%;
+    max-width: 500px;
+    margin: auto;
+    margin-top: 10%;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    height: 25vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.close {
+    position: absolute;
+    margin-top: -10%;
+    margin-left: 28%;
+    font-size: 40px;
+    width: 40px;
+    height: 40px;
+    align-items: center;
+    font-weight: bold;
+    cursor: pointer;
+    color: red;
+}
+
+.image1{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    margin-top: -10%;
+}
+.para3{
+    color: black;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 50px;
+}
+.first{
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.card2{
+    background-color: white;
+    width: 60%;
+    max-width: 500px;
+    margin: auto;
+    margin-top: 10%;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    height: 25vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    margin-left: 35%;
+}
+
+.image2{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    margin-top: -30%;
+}
+.para4{
+    color: black;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.close1{
+    position: absolute;
+    margin-top: -30%;
+    margin-left: 90%;
+    font-size: 40px;
+    width: 40px;
+    height: 40px;
+    align-items: center;
+    font-weight: bold;
+    cursor: pointer;
+    color: red;
+}
